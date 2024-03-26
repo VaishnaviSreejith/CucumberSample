@@ -16,6 +16,7 @@ public class Stepdefinitionsample extends BaseTest {
 	public void User_is_already_on_login_page() {
 
 		driver.get("https://adactinhotelapp.com/");
+		System.out.println(driver.getTitle());
 
 	}
 
