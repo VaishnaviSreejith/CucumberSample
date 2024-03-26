@@ -12,7 +12,7 @@ public class Hookssample extends BaseTest {
 
 	@Before
 	public void before() {
-		WebDriverManager.chromedriver().browserVersion("123.0.6312.59");
+		//WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 //		String title = driver.getTitle();
 //		System.out.println(title);
