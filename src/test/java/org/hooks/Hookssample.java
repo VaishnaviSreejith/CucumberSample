@@ -10,7 +10,6 @@ public class Hookssample extends BaseTest {
 
 	@Before
 	public void before() {
-		//WebDriverManager.chromedriver().setup();
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver=new ChromeDriver();
 //		String title = driver.getTitle();
